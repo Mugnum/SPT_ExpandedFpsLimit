@@ -7,7 +7,7 @@ Mod page. Game version: 3.10.5.
 
 # Build instructions for new versions
 1. Clear existing assembly references.
-2. Create "Dependencies" folder" and copy into it following files:
+2. Create "Dependencies" folder and copy into it following files:
    - BepInEx\core\BepInEx.dll
    - BepInEx\plugins\spt\spt-reflection.dll
    - EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll
