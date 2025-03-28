@@ -1,0 +1,13 @@
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\bin\Release\ExpandedFpsLimit.dll
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\bin\Release\ExpandedFpsLimit.pdb
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\bin\Release\Assembly-CSharp.dll
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\bin\Release\BepInEx.dll
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\bin\Release\spt-reflection.dll
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\bin\Release\UnityEngine.CoreModule.dll
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\bin\Release\UnityEngine.dll
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\bin\Release\Newtonsoft.Json.dll
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\obj\Release\ExpandedFpsLimit.csproj.AssemblyReference.cache
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\obj\Release\ExpandedFpsLimit.csproj.CoreCompileInputs.cache
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\obj\Release\ExpandedFpsLimit.csproj.CopyComplete
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\obj\Release\ExpandedFpsLimit.dll
+C:\SSD\Workshop\Programs\Visual Studio 2022\_Projects\TarkovMods\ExpandedFpsLimit\obj\Release\ExpandedFpsLimit.pdb

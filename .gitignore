@@ -1,0 +1,6 @@
+.vs
+.vscode
+dependencies/*.dll
+source/bin
+source/obj
+packages
