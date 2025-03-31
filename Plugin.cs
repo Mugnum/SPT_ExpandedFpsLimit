@@ -51,11 +51,10 @@ namespace Mugnum.ExpandedFpsLimit
 			{
 				InitializeConfig();
 				new SetFramerateLimitsPatch().Enable();
-				Logger.LogInfo("Expanded FPS limit: initialized.");
 			}
 			catch (Exception ex)
 			{
-				Logger.LogError($"ExpandedFpsLimit {nameof(Awake)} method. Error: {ex}");
+				Logger.LogError($"Expanded FPS limit: {nameof(Awake)} method. Error: {ex}");
 				throw;
 			}
 		}
@@ -66,7 +65,8 @@ namespace Mugnum.ExpandedFpsLimit
 		private void InitializeConfig()
 		{
 			const string GeneralSectionName = "General";
-			MaxFpsLimit = Config.Bind(GeneralSectionName, "Max framerate limit", DefaultMaxFramerate, "Sets FPS limit in Graphics settings.");
+			MaxFpsLimit = Config.Bind(GeneralSectionName, "Maximum framerate limit", DefaultMaxFramerate,
+				"Sets FPS limit in Graphics settings. Requires game restart.");
 		}
 
 		#endregion Methods
