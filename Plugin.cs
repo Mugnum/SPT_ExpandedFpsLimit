@@ -10,7 +10,7 @@ namespace Mugnum.ExpandedFpsLimit
 	/// <summary>
 	/// Expanded FPS limit mod plugin.
 	/// </summary>
-	[BepInPlugin("mugnum", "ExpandedFpsLimit", "1.0.0")]
+	[BepInPlugin("mugnum.ExpandedFpsLimit", "ExpandedFpsLimit", "1.0.1")]
 	public class Plugin : BaseUnityPlugin
 	{
 		#region Constants
