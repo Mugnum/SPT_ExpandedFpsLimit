@@ -1,9 +1,9 @@
 # ExpandedFpsLimit
 [Mod page.](https://hub.sp-tarkov.com/files/file/2750-expanded-fps-limit/) Game version: 3.10.5+.
 
-[Download.](https://github.com/syrtsevser/SPT_ExpandedFpsLimit/releases)
+[Download.](https://github.com/Mugnum/SPT_ExpandedFpsLimit/releases)
 
-![alt text](https://raw.githubusercontent.com/syrtsevser/SPT_ExpandedFpsLimit/refs/heads/master/Media/preview.png)
+![alt text](https://raw.githubusercontent.com/Mugnum/SPT_ExpandedFpsLimit/refs/heads/master/Media/preview.png)
 
 # Build instructions for new versions
 1. Clear existing assembly references.
