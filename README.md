@@ -1,10 +1,13 @@
 # ExpandedFpsLimit
-Mod page.
-Download.
+[Mod page.](https://hub.sp-tarkov.com/files/file/2750-expanded-fps-limit/) Game version: 3.10.5+.
+
+[Download.](https://github.com/Mugnum/SPT_ExpandedFpsLimit/releases)
+
+![alt text](https://raw.githubusercontent.com/Mugnum/SPT_ExpandedFpsLimit/refs/heads/master/Media/preview.png)
 
 # Build instructions for new versions
 1. Clear existing assembly references.
-2. Create "Dependencies" folder" and copy into it following files:
+2. Create "Dependencies" folder and copy into it following files:
    - BepInEx\core\BepInEx.dll
    - BepInEx\plugins\spt\spt-reflection.dll
    - EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll
