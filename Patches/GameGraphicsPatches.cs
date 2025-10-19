@@ -1,7 +1,7 @@
 ﻿using SPT.Reflection.Patching;
 using System.Reflection;
 
-namespace Mugnum.ExpandedFpsLimit.Patches
+namespace Mugnum.TarkovMods.ExpandedFpsLimit.Patches
 {
 	/// <summary>
 	/// Patch for GameGraphicsClass.SetFramerateLimits method.
@@ -23,10 +23,12 @@ namespace Mugnum.ExpandedFpsLimit.Patches
 		[PatchPostfix]
 		private static void PatchPostfix()
 		{
+			const int MinValue = 60;
 			var fpsLimit = Plugin.MaxFpsLimit.Value;
-			if (fpsLimit <= 0)
+
+			if (fpsLimit <= MinValue)
 			{
-				fpsLimit = Plugin.DefaultMaxFramerate;
+				fpsLimit = MinValue;
 			}
 
 			GameGraphicsClass.MaxFramerateGameLimit = fpsLimit;

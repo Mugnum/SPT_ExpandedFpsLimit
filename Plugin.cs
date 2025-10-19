@@ -1,16 +1,14 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
-using BepInEx.Logging;
 using JetBrains.Annotations;
-using Mugnum.ExpandedFpsLimit.Patches;
-using System;
+using Mugnum.TarkovMods.ExpandedFpsLimit.Patches;
 
-namespace Mugnum.ExpandedFpsLimit
+namespace Mugnum.TarkovMods.ExpandedFpsLimit
 {
 	/// <summary>
 	/// Expanded FPS limit mod plugin.
 	/// </summary>
-	[BepInPlugin("mugnum", "ExpandedFpsLimit", "1.0.0")]
+	[BepInPlugin("com.mugnum.expandedfpslimit", "Mugnum-ExpandedFpsLimit", "1.1.0")]
 	public class Plugin : BaseUnityPlugin
 	{
 		#region Constants
@@ -19,16 +17,11 @@ namespace Mugnum.ExpandedFpsLimit
 		/// Default max framerate limit.
 		/// </summary>
 		internal const int DefaultMaxFramerate = 360;
-
+		
 		#endregion Constants
 
 		#region Fields: Internal
 
-		/// <summary>
-		/// Logger.
-		/// </summary>
-		internal static ManualLogSource Log;
-		
 		/// <summary>
 		/// Max framerate limit.
 		/// </summary>
@@ -44,19 +37,8 @@ namespace Mugnum.ExpandedFpsLimit
 		[UsedImplicitly]
 		internal void Awake()
 		{
-			Log = Logger;
-			Logger.LogInfo("Expanded FPS limit: initializing.");
-
-			try
-			{
-				InitializeConfig();
-				new SetFramerateLimitsPatch().Enable();
-			}
-			catch (Exception ex)
-			{
-				Logger.LogError($"Expanded FPS limit: {nameof(Awake)} method. Error: {ex}");
-				throw;
-			}
+			InitializeConfig();
+			new SetFramerateLimitsPatch().Enable();
 		}
 
 		/// <summary>
