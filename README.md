@@ -1,5 +1,5 @@
 # ExpandedFpsLimit
-[Mod page.](https://hub.sp-tarkov.com/files/file/2750-expanded-fps-limit/) Game versions: 3.10.5, 3.11.4, 4.0.1+.
+[Mod page.](https://hub.sp-tarkov.com/files/file/2750-expanded-fps-limit/) Game versions: 3.10-3.11, 4.0+.
 
 [Download.](https://github.com/Mugnum/SPT_ExpandedFpsLimit/releases)
 
