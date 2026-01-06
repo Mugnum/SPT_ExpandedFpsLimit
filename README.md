@@ -11,6 +11,7 @@
    - BepInEx\core\BepInEx.dll
    - BepInEx\plugins\spt\spt-reflection.dll
    - EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll
+   - EscapeFromTarkov_Data\Managed\Comfort.dll
    - EscapeFromTarkov_Data\Managed\UnityEngine.dll
    - EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll
 3. Add references to project and compile "Release" build.
