@@ -25,6 +25,9 @@
     <Reference Include="BepInEx">
       <HintPath>Dependencies\BepInEx.dll</HintPath>
     </Reference>
+    <Reference Include="Comfort">
+      <HintPath>Dependencies\Comfort.dll</HintPath>
+    </Reference>
     <Reference Include="spt-reflection">
       <HintPath>Dependencies\spt-reflection.dll</HintPath>
     </Reference>
